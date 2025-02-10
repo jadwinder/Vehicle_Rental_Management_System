@@ -26,8 +26,8 @@ Partial Class index
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.HomeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.RentACarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.EconomicalCarsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
+        Me.EconomicalCarsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SUVsCarsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.LuxuryCarsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ConvertibleCarsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -51,7 +51,6 @@ Partial Class index
         Me.Label4 = New System.Windows.Forms.Label()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.Button6 = New System.Windows.Forms.Button()
-        Me.BackgroundWorker1 = New System.ComponentModel.BackgroundWorker()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -73,21 +72,21 @@ Partial Class index
         '
         'RentACarToolStripMenuItem
         '
-        Me.RentACarToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.EconomicalCarsToolStripMenuItem, Me.ToolStripSeparator1, Me.SUVsCarsToolStripMenuItem, Me.LuxuryCarsToolStripMenuItem, Me.ConvertibleCarsToolStripMenuItem, Me.AllCarsToolStripMenuItem})
+        Me.RentACarToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripSeparator1, Me.EconomicalCarsToolStripMenuItem, Me.SUVsCarsToolStripMenuItem, Me.LuxuryCarsToolStripMenuItem, Me.ConvertibleCarsToolStripMenuItem, Me.AllCarsToolStripMenuItem})
         Me.RentACarToolStripMenuItem.Name = "RentACarToolStripMenuItem"
         Me.RentACarToolStripMenuItem.Size = New System.Drawing.Size(71, 20)
         Me.RentACarToolStripMenuItem.Text = "Rent a car"
+        '
+        'ToolStripSeparator1
+        '
+        Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(159, 6)
         '
         'EconomicalCarsToolStripMenuItem
         '
         Me.EconomicalCarsToolStripMenuItem.Name = "EconomicalCarsToolStripMenuItem"
         Me.EconomicalCarsToolStripMenuItem.Size = New System.Drawing.Size(162, 22)
         Me.EconomicalCarsToolStripMenuItem.Text = "Economical Cars"
-        '
-        'ToolStripSeparator1
-        '
-        Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(159, 6)
         '
         'SUVsCarsToolStripMenuItem
         '
@@ -128,7 +127,7 @@ Partial Class index
         'TermsToolStripMenuItem
         '
         Me.TermsToolStripMenuItem.Name = "TermsToolStripMenuItem"
-        Me.TermsToolStripMenuItem.Size = New System.Drawing.Size(52, 20)
+        Me.TermsToolStripMenuItem.Size = New System.Drawing.Size(50, 20)
         Me.TermsToolStripMenuItem.Text = "Terms"
         '
         'ContactToolStripMenuItem
@@ -149,9 +148,9 @@ Partial Class index
         '
         'Button2
         '
-        Me.Button2.BackColor = System.Drawing.Color.ForestGreen
+        Me.Button2.BackColor = System.Drawing.Color.DarkGreen
         Me.Button2.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Button2.Location = New System.Drawing.Point(749, 0)
+        Me.Button2.Location = New System.Drawing.Point(749, 1)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
         Me.Button2.TabIndex = 2
@@ -161,43 +160,40 @@ Partial Class index
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(0, 52)
+        Me.PictureBox1.Location = New System.Drawing.Point(0, 26)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(870, 228)
+        Me.PictureBox1.Size = New System.Drawing.Size(927, 228)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 3
         Me.PictureBox1.TabStop = False
         '
         'Button3
         '
-        Me.Button3.BackColor = System.Drawing.Color.ForestGreen
-        Me.Button3.Location = New System.Drawing.Point(526, 57)
+        Me.Button3.Location = New System.Drawing.Point(495, 52)
         Me.Button3.Margin = New System.Windows.Forms.Padding(10)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(99, 25)
         Me.Button3.TabIndex = 4
         Me.Button3.Text = " Self Drive Car"
-        Me.Button3.UseVisualStyleBackColor = False
+        Me.Button3.UseVisualStyleBackColor = True
         '
         'Button5
         '
-        Me.Button5.BackColor = System.Drawing.Color.ForestGreen
-        Me.Button5.Location = New System.Drawing.Point(638, 57)
+        Me.Button5.Location = New System.Drawing.Point(622, 52)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(101, 25)
         Me.Button5.TabIndex = 4
         Me.Button5.Text = "Taxi Services"
-        Me.Button5.UseVisualStyleBackColor = False
+        Me.Button5.UseVisualStyleBackColor = True
         '
         'Button4
         '
-        Me.Button4.BackColor = System.Drawing.Color.ForestGreen
-        Me.Button4.Location = New System.Drawing.Point(745, 57)
+        Me.Button4.Location = New System.Drawing.Point(749, 52)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(101, 25)
         Me.Button4.TabIndex = 4
         Me.Button4.Text = "Rent A Bike"
-        Me.Button4.UseVisualStyleBackColor = False
+        Me.Button4.UseVisualStyleBackColor = True
         '
         'Label2
         '
@@ -212,13 +208,13 @@ Partial Class index
         'ComboBox1
         '
         Me.ComboBox1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.ComboBox1.DisplayMember = "Select"
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"Chandigarh, Punjab", "Amritsar, Punjab", "Ludhiana, Punjab", "Jalandhar, Punjab", "Zirakpur, Punjab", "Kharar, Punjab", ""})
         Me.ComboBox1.Location = New System.Drawing.Point(495, 114)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(140, 21)
         Me.ComboBox1.TabIndex = 7
+        Me.ComboBox1.Text = "Select an option"
         '
         'Label3
         '
@@ -226,9 +222,9 @@ Partial Class index
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(699, 87)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(94, 13)
+        Me.Label3.Size = New System.Drawing.Size(25, 13)
         Me.Label3.TabIndex = 6
-        Me.Label3.Text = "I want a Car in "
+        Me.Label3.Text = "For"
         '
         'TextBox1
         '
@@ -273,22 +269,18 @@ Partial Class index
         '
         'Button6
         '
-        Me.Button6.BackColor = System.Drawing.Color.ForestGreen
         Me.Button6.Location = New System.Drawing.Point(602, 212)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(121, 23)
         Me.Button6.TabIndex = 9
         Me.Button6.Text = "Search a Cab"
-        Me.Button6.UseVisualStyleBackColor = False
-        '
-        'BackgroundWorker1
-        '
+        Me.Button6.UseVisualStyleBackColor = True
         '
         'index
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.SystemColors.ControlLight
+        Me.BackColor = System.Drawing.Color.CornflowerBlue
         Me.ClientSize = New System.Drawing.Size(927, 505)
         Me.Controls.Add(Me.Button6)
         Me.Controls.Add(Me.TextBox3)
@@ -302,13 +294,13 @@ Partial Class index
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.MenuStrip1)
+        Me.Controls.Add(Me.PictureBox1)
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "index"
-        Me.Text = "Form4"
+        Me.Text = "index"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -344,5 +336,4 @@ Partial Class index
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents TextBox3 As System.Windows.Forms.TextBox
     Friend WithEvents Button6 As System.Windows.Forms.Button
-    Friend WithEvents BackgroundWorker1 As System.ComponentModel.BackgroundWorker
 End Class

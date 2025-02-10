@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form3
+Partial Class Login_form
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,7 +22,7 @@ Partial Class Form3
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form3))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Login_form))
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -78,6 +78,7 @@ Partial Class Form3
         Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!)
         Me.TextBox2.Location = New System.Drawing.Point(487, 202)
         Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.TextBox2.Size = New System.Drawing.Size(239, 29)
         Me.TextBox2.TabIndex = 4
         '
@@ -96,7 +97,7 @@ Partial Class Form3
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(486, 296)
+        Me.Label4.Location = New System.Drawing.Point(486, 309)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(127, 13)
         Me.Label4.TabIndex = 8
@@ -106,18 +107,18 @@ Partial Class Form3
         '
         Me.Button3.BackColor = System.Drawing.Color.DodgerBlue
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.25!)
-        Me.Button3.Location = New System.Drawing.Point(487, 321)
+        Me.Button3.Location = New System.Drawing.Point(489, 343)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(237, 24)
         Me.Button3.TabIndex = 9
         Me.Button3.Text = "Sign up"
         Me.Button3.UseVisualStyleBackColor = False
         '
-        'Form3
+        'Login_form
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(864, 460)
+        Me.ClientSize = New System.Drawing.Size(833, 479)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Login_button)
@@ -126,8 +127,8 @@ Partial Class Form3
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Name = "Form3"
-        Me.Text = "Form3"
+        Me.Name = "Login_form"
+        Me.Text = "login"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()

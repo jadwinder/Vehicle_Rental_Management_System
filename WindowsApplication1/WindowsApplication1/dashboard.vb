@@ -1,14 +1,14 @@
 ﻿Public Class dashboard
 
-    Private Sub PictureBox1_Click(sender As Object, e As EventArgs)
 
+
+    Private Sub Label5_Click(sender As Object, e As EventArgs)
+        economical.Show()
     End Sub
 
-    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click, Label2.Click
 
-    End Sub
-
-    Private Sub dashboard_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        economical.Show()
+        Me.Hide()
     End Sub
 End Class

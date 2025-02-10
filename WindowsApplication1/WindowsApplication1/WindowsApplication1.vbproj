@@ -12,6 +12,21 @@
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -45,7 +60,11 @@
   <PropertyGroup>
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
@@ -70,22 +89,94 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="amaze.Designer.vb">
+      <DependentUpon>amaze.vb</DependentUpon>
+    </Compile>
+    <Compile Include="amaze.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="cars.Designer.vb">
       <DependentUpon>cars.vb</DependentUpon>
     </Compile>
     <Compile Include="cars.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="audi.Designer.vb">
+      <DependentUpon>audi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="audi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bentley.Designer.vb">
+      <DependentUpon>bentley.vb</DependentUpon>
+    </Compile>
+    <Compile Include="bentley.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rolls.Designer.vb">
+      <DependentUpon>rolls.vb</DependentUpon>
+    </Compile>
+    <Compile Include="rolls.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="range.Designer.vb">
+      <DependentUpon>range.vb</DependentUpon>
+    </Compile>
+    <Compile Include="range.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mercedes.Designer.vb">
+      <DependentUpon>mercedes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="mercedes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="jaguar.Designer.vb">
+      <DependentUpon>jaguar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="jaguar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lux.Designer.vb">
+      <DependentUpon>lux.vb</DependentUpon>
+    </Compile>
+    <Compile Include="lux.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dzire.Designer.vb">
+      <DependentUpon>dzire.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dzire.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="creta.Designer.vb">
+      <DependentUpon>creta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="creta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="verna.Designer.vb">
+      <DependentUpon>verna.vb</DependentUpon>
+    </Compile>
+    <Compile Include="verna.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="delta.Designer.vb">
+      <DependentUpon>delta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="delta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vitara.Designer.vb">
+      <DependentUpon>vitara.vb</DependentUpon>
+    </Compile>
+    <Compile Include="vitara.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="dashboard.Designer.vb">
       <DependentUpon>dashboard.vb</DependentUpon>
     </Compile>
     <Compile Include="dashboard.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="index.Designer.vb">
@@ -127,16 +218,59 @@
     <Compile Include="signup.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="signup1.vb" />
+    <Compile Include="weddingcars.Designer.vb">
+      <DependentUpon>weddingcars.vb</DependentUpon>
+    </Compile>
+    <Compile Include="weddingcars.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="amaze.resx">
+      <DependentUpon>amaze.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="cars.resx">
       <DependentUpon>cars.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="audi.resx">
+      <DependentUpon>audi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bentley.resx">
+      <DependentUpon>bentley.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rolls.resx">
+      <DependentUpon>rolls.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="range.resx">
+      <DependentUpon>range.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mercedes.resx">
+      <DependentUpon>mercedes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="jaguar.resx">
+      <DependentUpon>jaguar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lux.resx">
+      <DependentUpon>lux.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dzire.resx">
+      <DependentUpon>dzire.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="creta.resx">
+      <DependentUpon>creta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="verna.resx">
+      <DependentUpon>verna.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="delta.resx">
+      <DependentUpon>delta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vitara.resx">
+      <DependentUpon>vitara.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="dashboard.resx">
       <DependentUpon>dashboard.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="index.resx">
       <DependentUpon>index.vb</DependentUpon>
@@ -156,8 +290,12 @@
     <EmbeddedResource Include="signup.resx">
       <DependentUpon>signup.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="weddingcars.resx">
+      <DependentUpon>weddingcars.vb</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="My Project\app.manifest" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -168,6 +306,23 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
