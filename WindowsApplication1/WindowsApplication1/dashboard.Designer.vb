@@ -30,6 +30,8 @@ Partial Class dashboard
         Me.EconomicalCarsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SUVsCarsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.LuxuryCarsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.WeddingCarsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripSeparator2 = New System.Windows.Forms.ToolStripSeparator()
         Me.RentABikeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TermsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ContactToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -41,12 +43,7 @@ Partial Class dashboard
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
-<<<<<<< HEAD
-        Me.WeddingCarsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ToolStripSeparator2 = New System.Windows.Forms.ToolStripSeparator()
-=======
         Me.Button2 = New System.Windows.Forms.Button()
->>>>>>> 71adab6 (done)
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -97,6 +94,17 @@ Partial Class dashboard
         Me.LuxuryCarsToolStripMenuItem.Size = New System.Drawing.Size(187, 24)
         Me.LuxuryCarsToolStripMenuItem.Text = "Luxury Cars"
         '
+        'WeddingCarsToolStripMenuItem
+        '
+        Me.WeddingCarsToolStripMenuItem.Name = "WeddingCarsToolStripMenuItem"
+        Me.WeddingCarsToolStripMenuItem.Size = New System.Drawing.Size(187, 24)
+        Me.WeddingCarsToolStripMenuItem.Text = "Wedding Cars"
+        '
+        'ToolStripSeparator2
+        '
+        Me.ToolStripSeparator2.Name = "ToolStripSeparator2"
+        Me.ToolStripSeparator2.Size = New System.Drawing.Size(184, 6)
+        '
         'RentABikeToolStripMenuItem
         '
         Me.RentABikeToolStripMenuItem.Name = "RentABikeToolStripMenuItem"
@@ -106,7 +114,7 @@ Partial Class dashboard
         'TermsToolStripMenuItem
         '
         Me.TermsToolStripMenuItem.Name = "TermsToolStripMenuItem"
-        Me.TermsToolStripMenuItem.Size = New System.Drawing.Size(61, 24)
+        Me.TermsToolStripMenuItem.Size = New System.Drawing.Size(60, 24)
         Me.TermsToolStripMenuItem.Text = "Terms"
         '
         'ContactToolStripMenuItem
@@ -223,18 +231,6 @@ Partial Class dashboard
         Me.Button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button5.UseVisualStyleBackColor = False
         '
-<<<<<<< HEAD
-        'WeddingCarsToolStripMenuItem
-        '
-        Me.WeddingCarsToolStripMenuItem.Name = "WeddingCarsToolStripMenuItem"
-        Me.WeddingCarsToolStripMenuItem.Size = New System.Drawing.Size(187, 24)
-        Me.WeddingCarsToolStripMenuItem.Text = "Wedding Cars"
-        '
-        'ToolStripSeparator2
-        '
-        Me.ToolStripSeparator2.Name = "ToolStripSeparator2"
-        Me.ToolStripSeparator2.Size = New System.Drawing.Size(184, 6)
-=======
         'Button2
         '
         Me.Button2.BackColor = System.Drawing.Color.Transparent
@@ -249,7 +245,6 @@ Partial Class dashboard
         Me.Button2.Text = "SUV Cars"
         Me.Button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button2.UseVisualStyleBackColor = False
->>>>>>> 71adab6 (done)
         '
         'dashboard
         '

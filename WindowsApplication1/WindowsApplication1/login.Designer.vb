@@ -78,7 +78,6 @@ Partial Class Login_form
         Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!)
         Me.TextBox2.Location = New System.Drawing.Point(487, 202)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.TextBox2.Size = New System.Drawing.Size(239, 29)
         Me.TextBox2.TabIndex = 4
         '

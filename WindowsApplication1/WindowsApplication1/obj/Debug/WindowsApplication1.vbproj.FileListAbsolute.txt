@@ -1,44 +1,3 @@
-<<<<<<< HEAD
-c:\users\admin\documents\visual studio 2012\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe.config
-C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe
-C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
-C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.xml
-C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Resources.resources
-C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.vbproj.GenerateResource.Cache
-C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.exe
-C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.xml
-C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.pdb
-C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Manage_booking.resources
-C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.index.resources
-C:\Users\pc\Documents\Visual Studio 2012\Projects\Project\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe.config
-C:\Users\pc\Documents\Visual Studio 2012\Projects\Project\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.exe
-C:\Users\pc\Documents\Visual Studio 2012\Projects\Project\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.xml
-C:\Users\pc\Documents\Visual Studio 2012\Projects\Project\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.pdb
-C:\Users\pc\Documents\Visual Studio 2012\Projects\Project\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe
-C:\Users\pc\Documents\Visual Studio 2012\Projects\Project\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
-C:\Users\pc\Documents\Visual Studio 2012\Projects\Project\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.xml
-C:\Users\pc\Documents\Visual Studio 2012\Projects\Project\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.index.resources
-C:\Users\pc\Documents\Visual Studio 2012\Projects\Project\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Manage_booking.resources
-C:\Users\pc\Documents\Visual Studio 2012\Projects\Project\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Resources.resources
-C:\Users\pc\Documents\Visual Studio 2012\Projects\Project\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.vbproj.GenerateResource.Cache
-C:\Users\pc\Documents\Visual Studio 2012\Projects\Project\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.SignUp_form.resources
-C:\Users\pc\Documents\Visual Studio 2012\Projects\Project\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Login_form.resources
-C:\Users\pc\Documents\Visual Studio 2012\Projects\Project\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.dashboard.resources
-C:\Users\pc\Documents\Visual Studio 2012\Projects\Project\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.cars.resources
-C:\Users\pc\Documents\Visual Studio 2012\Projects\Project\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.amaze.resources
-C:\Users\pc\Documents\Visual Studio 2012\Projects\Project\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.vitara.resources
-C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.amaze.resources
-C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.cars.resources
-C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.delta.resources
-C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.vitara.resources
-C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.dashboard.resources
-C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Login_form.resources
-C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.SignUp_form.resources
-C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.verna.resources
-C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.creta.resources
-C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.luxury.resources
-C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.dzire.resources
-=======
 c:\users\admin\documents\visual studio 2012\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe.config
 C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe
 C:\Users\Admin\Documents\Visual Studio 2012\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
@@ -128,4 +87,5 @@ F:\6th SEM\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1
 F:\6th SEM\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
 F:\6th SEM\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.xml
 F:\6th SEM\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.weddingcars.resources
->>>>>>> 71adab6 (done)
+F:\6th SEM\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.scorpio.resources
+F:\6th SEM\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.suvs.resources

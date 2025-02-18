@@ -7,9 +7,6 @@
         Me.Hide()
 
     End Sub
-<<<<<<< HEAD
-=======
 
 
->>>>>>> 71adab6 (done)
 End Class

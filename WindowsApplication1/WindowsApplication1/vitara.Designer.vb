@@ -174,7 +174,7 @@ Partial Class vitara
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(140, 24)
         Me.Label2.TabIndex = 10
-        Me.Label2.Text = "Rs. 800 per day"
+        Me.Label2.Text = "Rs. 700 per day"
         '
         'Label3
         '

@@ -8,10 +8,7 @@
     End Sub
 
   
-<<<<<<< HEAD
-=======
     Private Sub range_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
->>>>>>> 71adab6 (done)
 End Class

@@ -64,10 +64,7 @@ Partial Class cars
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
-<<<<<<< HEAD
-=======
         Me.RentABikeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
->>>>>>> 71adab6 (done)
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -469,15 +466,12 @@ Partial Class cars
         Me.Button4.Text = "View more"
         Me.Button4.UseVisualStyleBackColor = False
         '
-<<<<<<< HEAD
-=======
         'RentABikeToolStripMenuItem
         '
         Me.RentABikeToolStripMenuItem.Name = "RentABikeToolStripMenuItem"
         Me.RentABikeToolStripMenuItem.Size = New System.Drawing.Size(95, 24)
         Me.RentABikeToolStripMenuItem.Text = "Rent a bike"
         '
->>>>>>> 71adab6 (done)
         'cars
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -558,8 +552,5 @@ Partial Class cars
     Friend WithEvents Button5 As System.Windows.Forms.Button
     Friend WithEvents Button6 As System.Windows.Forms.Button
     Friend WithEvents Button4 As System.Windows.Forms.Button
-<<<<<<< HEAD
-=======
     Friend WithEvents RentABikeToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
->>>>>>> 71adab6 (done)
 End Class

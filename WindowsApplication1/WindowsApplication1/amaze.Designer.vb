@@ -174,11 +174,7 @@ Partial Class amaze
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(150, 24)
         Me.Label2.TabIndex = 10
-<<<<<<< HEAD
-        Me.Label2.Text = "Rs. 1000 per day"
-=======
         Me.Label2.Text = "Rs. 1500 per day"
->>>>>>> 71adab6 (done)
         '
         'Label3
         '
