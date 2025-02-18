@@ -151,16 +151,16 @@ Partial Class amaze
         Me.Label1.Font = New System.Drawing.Font("Meiryo UI", 28.25!, System.Drawing.FontStyle.Bold)
         Me.Label1.Location = New System.Drawing.Point(280, 38)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(301, 48)
+        Me.Label1.Size = New System.Drawing.Size(337, 48)
         Me.Label1.TabIndex = 8
-        Me.Label1.Text = "Honda Amaze"
+        Me.Label1.Text = "Hyundai Amaze"
         '
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(29, 145)
+        Me.PictureBox1.Location = New System.Drawing.Point(23, 149)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(441, 294)
+        Me.PictureBox1.Size = New System.Drawing.Size(394, 263)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 9
         Me.PictureBox1.TabStop = False
@@ -174,7 +174,11 @@ Partial Class amaze
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(150, 24)
         Me.Label2.TabIndex = 10
+<<<<<<< HEAD
         Me.Label2.Text = "Rs. 1000 per day"
+=======
+        Me.Label2.Text = "Rs. 1500 per day"
+>>>>>>> 71adab6 (done)
         '
         'Label3
         '
@@ -400,7 +404,7 @@ Partial Class amaze
         Me.Controls.Add(Me.MenuStrip1)
         Me.Controls.Add(Me.ShapeContainer1)
         Me.Name = "amaze"
-        Me.Text = "Honda Amaze"
+        Me.Text = "Hyundai Amaze"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()

@@ -35,8 +35,6 @@ Partial Class cars
         Me.LuxuryCarsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.WeddingCarsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripSeparator2 = New System.Windows.Forms.ToolStripSeparator()
-        Me.RentABikeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.SelfDriveToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TermsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ContactToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.LinkLabel4 = New System.Windows.Forms.LinkLabel()
@@ -66,6 +64,10 @@ Partial Class cars
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
+<<<<<<< HEAD
+=======
+        Me.RentABikeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+>>>>>>> 71adab6 (done)
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -118,7 +120,7 @@ Partial Class cars
         'MenuStrip1
         '
         Me.MenuStrip1.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.HomeToolStripMenuItem, Me.RentACarToolStripMenuItem, Me.RentABikeToolStripMenuItem, Me.SelfDriveToolStripMenuItem, Me.TermsToolStripMenuItem, Me.ContactToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.HomeToolStripMenuItem, Me.RentACarToolStripMenuItem, Me.RentABikeToolStripMenuItem, Me.TermsToolStripMenuItem, Me.ContactToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(833, 28)
@@ -172,18 +174,6 @@ Partial Class cars
         '
         Me.ToolStripSeparator2.Name = "ToolStripSeparator2"
         Me.ToolStripSeparator2.Size = New System.Drawing.Size(184, 6)
-        '
-        'RentABikeToolStripMenuItem
-        '
-        Me.RentABikeToolStripMenuItem.Name = "RentABikeToolStripMenuItem"
-        Me.RentABikeToolStripMenuItem.Size = New System.Drawing.Size(95, 24)
-        Me.RentABikeToolStripMenuItem.Text = "Rent a bike"
-        '
-        'SelfDriveToolStripMenuItem
-        '
-        Me.SelfDriveToolStripMenuItem.Name = "SelfDriveToolStripMenuItem"
-        Me.SelfDriveToolStripMenuItem.Size = New System.Drawing.Size(83, 24)
-        Me.SelfDriveToolStripMenuItem.Text = "Self drive"
         '
         'TermsToolStripMenuItem
         '
@@ -479,6 +469,15 @@ Partial Class cars
         Me.Button4.Text = "View more"
         Me.Button4.UseVisualStyleBackColor = False
         '
+<<<<<<< HEAD
+=======
+        'RentABikeToolStripMenuItem
+        '
+        Me.RentABikeToolStripMenuItem.Name = "RentABikeToolStripMenuItem"
+        Me.RentABikeToolStripMenuItem.Size = New System.Drawing.Size(95, 24)
+        Me.RentABikeToolStripMenuItem.Text = "Rent a bike"
+        '
+>>>>>>> 71adab6 (done)
         'cars
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -530,8 +529,6 @@ Partial Class cars
     Friend WithEvents LuxuryCarsToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents WeddingCarsToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ToolStripSeparator2 As System.Windows.Forms.ToolStripSeparator
-    Friend WithEvents RentABikeToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents SelfDriveToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents TermsToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ContactToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents LinkLabel4 As System.Windows.Forms.LinkLabel
@@ -561,4 +558,8 @@ Partial Class cars
     Friend WithEvents Button5 As System.Windows.Forms.Button
     Friend WithEvents Button6 As System.Windows.Forms.Button
     Friend WithEvents Button4 As System.Windows.Forms.Button
+<<<<<<< HEAD
+=======
+    Friend WithEvents RentABikeToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+>>>>>>> 71adab6 (done)
 End Class

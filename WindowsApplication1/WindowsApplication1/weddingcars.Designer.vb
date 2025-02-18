@@ -43,8 +43,6 @@ Partial Class weddingcars
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.ShapeContainer1 = New Microsoft.VisualBasic.PowerPacks.ShapeContainer()
-        Me.LineShape7 = New Microsoft.VisualBasic.PowerPacks.LineShape()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
@@ -60,11 +58,13 @@ Partial Class weddingcars
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
-        Me.LineShape1 = New Microsoft.VisualBasic.PowerPacks.LineShape()
-        Me.LineShape3 = New Microsoft.VisualBasic.PowerPacks.LineShape()
-        Me.LineShape4 = New Microsoft.VisualBasic.PowerPacks.LineShape()
-        Me.LineShape5 = New Microsoft.VisualBasic.PowerPacks.LineShape()
+        Me.ShapeContainer1 = New Microsoft.VisualBasic.PowerPacks.ShapeContainer()
+        Me.LineShape7 = New Microsoft.VisualBasic.PowerPacks.LineShape()
         Me.LineShape6 = New Microsoft.VisualBasic.PowerPacks.LineShape()
+        Me.LineShape3 = New Microsoft.VisualBasic.PowerPacks.LineShape()
+        Me.LineShape5 = New Microsoft.VisualBasic.PowerPacks.LineShape()
+        Me.LineShape4 = New Microsoft.VisualBasic.PowerPacks.LineShape()
+        Me.LineShape1 = New Microsoft.VisualBasic.PowerPacks.LineShape()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -256,25 +256,6 @@ Partial Class weddingcars
         Me.Label6.TabIndex = 9
         Me.Label6.Text = "The ultimate choice for grand wedding entrances" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
-        'ShapeContainer1
-        '
-        Me.ShapeContainer1.Location = New System.Drawing.Point(0, 0)
-        Me.ShapeContainer1.Margin = New System.Windows.Forms.Padding(0)
-        Me.ShapeContainer1.Name = "ShapeContainer1"
-        Me.ShapeContainer1.Shapes.AddRange(New Microsoft.VisualBasic.PowerPacks.Shape() {Me.LineShape6, Me.LineShape5, Me.LineShape4, Me.LineShape3, Me.LineShape1, Me.LineShape7})
-        Me.ShapeContainer1.Size = New System.Drawing.Size(833, 479)
-        Me.ShapeContainer1.TabIndex = 10
-        Me.ShapeContainer1.TabStop = False
-        '
-        'LineShape7
-        '
-        Me.LineShape7.Cursor = System.Windows.Forms.Cursors.Default
-        Me.LineShape7.Name = "LineShape1"
-        Me.LineShape7.X1 = 0
-        Me.LineShape7.X2 = 829
-        Me.LineShape7.Y1 = 463
-        Me.LineShape7.Y2 = 461
-        '
         'Label3
         '
         Me.Label3.AutoSize = True
@@ -404,7 +385,7 @@ Partial Class weddingcars
         '
         Me.Button2.BackColor = System.Drawing.Color.Tomato
         Me.Button2.DialogResult = System.Windows.Forms.DialogResult.Cancel
-        Me.Button2.Location = New System.Drawing.Point(660, 262)
+        Me.Button2.Location = New System.Drawing.Point(660, 268)
         Me.Button2.Name = "Button2"
         Me.Button2.Padding = New System.Windows.Forms.Padding(7)
         Me.Button2.Size = New System.Drawing.Size(89, 37)
@@ -456,13 +437,33 @@ Partial Class weddingcars
         Me.Button6.Text = "View more"
         Me.Button6.UseVisualStyleBackColor = False
         '
-        'LineShape1
+        'ShapeContainer1
         '
-        Me.LineShape1.Name = "LineShape1"
-        Me.LineShape1.X1 = 1
-        Me.LineShape1.X2 = 832
-        Me.LineShape1.Y1 = 203
-        Me.LineShape1.Y2 = 202
+        Me.ShapeContainer1.Location = New System.Drawing.Point(0, 0)
+        Me.ShapeContainer1.Margin = New System.Windows.Forms.Padding(0)
+        Me.ShapeContainer1.Name = "ShapeContainer1"
+        Me.ShapeContainer1.Shapes.AddRange(New Microsoft.VisualBasic.PowerPacks.Shape() {Me.LineShape6, Me.LineShape5, Me.LineShape4, Me.LineShape3, Me.LineShape1, Me.LineShape7})
+        Me.ShapeContainer1.Size = New System.Drawing.Size(833, 479)
+        Me.ShapeContainer1.TabIndex = 10
+        Me.ShapeContainer1.TabStop = False
+        '
+        'LineShape7
+        '
+        Me.LineShape7.Cursor = System.Windows.Forms.Cursors.Default
+        Me.LineShape7.Name = "LineShape1"
+        Me.LineShape7.X1 = 0
+        Me.LineShape7.X2 = 829
+        Me.LineShape7.Y1 = 463
+        Me.LineShape7.Y2 = 461
+        '
+        'LineShape6
+        '
+        Me.LineShape6.Cursor = System.Windows.Forms.Cursors.Default
+        Me.LineShape6.Name = "LineShape1"
+        Me.LineShape6.X1 = -1
+        Me.LineShape6.X2 = 830
+        Me.LineShape6.Y1 = 408
+        Me.LineShape6.Y2 = 407
         '
         'LineShape3
         '
@@ -473,15 +474,6 @@ Partial Class weddingcars
         Me.LineShape3.Y1 = 358
         Me.LineShape3.Y2 = 357
         '
-        'LineShape4
-        '
-        Me.LineShape4.Cursor = System.Windows.Forms.Cursors.Default
-        Me.LineShape4.Name = "LineShape1"
-        Me.LineShape4.X1 = 1
-        Me.LineShape4.X2 = 832
-        Me.LineShape4.Y1 = 264
-        Me.LineShape4.Y2 = 263
-        '
         'LineShape5
         '
         Me.LineShape5.Cursor = System.Windows.Forms.Cursors.Default
@@ -491,14 +483,22 @@ Partial Class weddingcars
         Me.LineShape5.Y1 = 311
         Me.LineShape5.Y2 = 310
         '
-        'LineShape6
+        'LineShape4
         '
-        Me.LineShape6.Cursor = System.Windows.Forms.Cursors.Default
-        Me.LineShape6.Name = "LineShape1"
-        Me.LineShape6.X1 = -1
-        Me.LineShape6.X2 = 830
-        Me.LineShape6.Y1 = 408
-        Me.LineShape6.Y2 = 407
+        Me.LineShape4.Cursor = System.Windows.Forms.Cursors.Default
+        Me.LineShape4.Name = "LineShape1"
+        Me.LineShape4.X1 = 1
+        Me.LineShape4.X2 = 832
+        Me.LineShape4.Y1 = 264
+        Me.LineShape4.Y2 = 263
+        '
+        'LineShape1
+        '
+        Me.LineShape1.Name = "LineShape1"
+        Me.LineShape1.X1 = 1
+        Me.LineShape1.X2 = 832
+        Me.LineShape1.Y1 = 203
+        Me.LineShape1.Y2 = 202
         '
         'weddingcars
         '
@@ -561,7 +561,6 @@ Partial Class weddingcars
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents Label6 As System.Windows.Forms.Label
-    Friend WithEvents ShapeContainer1 As Microsoft.VisualBasic.PowerPacks.ShapeContainer
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents Label5 As System.Windows.Forms.Label
@@ -572,15 +571,16 @@ Partial Class weddingcars
     Friend WithEvents Label11 As System.Windows.Forms.Label
     Friend WithEvents Label12 As System.Windows.Forms.Label
     Friend WithEvents Label13 As System.Windows.Forms.Label
-    Friend WithEvents LineShape7 As Microsoft.VisualBasic.PowerPacks.LineShape
     Friend WithEvents Button2 As System.Windows.Forms.Button
     Friend WithEvents Button3 As System.Windows.Forms.Button
     Friend WithEvents Button4 As System.Windows.Forms.Button
     Friend WithEvents Button5 As System.Windows.Forms.Button
     Friend WithEvents Button6 As System.Windows.Forms.Button
-    Friend WithEvents LineShape1 As Microsoft.VisualBasic.PowerPacks.LineShape
-    Friend WithEvents LineShape4 As Microsoft.VisualBasic.PowerPacks.LineShape
-    Friend WithEvents LineShape3 As Microsoft.VisualBasic.PowerPacks.LineShape
+    Friend WithEvents ShapeContainer1 As Microsoft.VisualBasic.PowerPacks.ShapeContainer
     Friend WithEvents LineShape6 As Microsoft.VisualBasic.PowerPacks.LineShape
     Friend WithEvents LineShape5 As Microsoft.VisualBasic.PowerPacks.LineShape
+    Friend WithEvents LineShape4 As Microsoft.VisualBasic.PowerPacks.LineShape
+    Friend WithEvents LineShape3 As Microsoft.VisualBasic.PowerPacks.LineShape
+    Friend WithEvents LineShape1 As Microsoft.VisualBasic.PowerPacks.LineShape
+    Friend WithEvents LineShape7 As Microsoft.VisualBasic.PowerPacks.LineShape
 End Class

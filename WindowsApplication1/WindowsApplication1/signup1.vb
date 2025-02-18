@@ -1,4 +1,0 @@
-﻿
-Class signup
-
-End Class

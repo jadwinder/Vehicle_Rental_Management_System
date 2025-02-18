@@ -31,7 +31,6 @@ Partial Class dashboard
         Me.SUVsCarsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.LuxuryCarsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.RentABikeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.SelfDriveToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TermsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ContactToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -39,19 +38,22 @@ Partial Class dashboard
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
+<<<<<<< HEAD
         Me.WeddingCarsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripSeparator2 = New System.Windows.Forms.ToolStripSeparator()
+=======
+        Me.Button2 = New System.Windows.Forms.Button()
+>>>>>>> 71adab6 (done)
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'MenuStrip1
         '
         Me.MenuStrip1.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.HomeToolStripMenuItem, Me.RentACarToolStripMenuItem, Me.RentABikeToolStripMenuItem, Me.SelfDriveToolStripMenuItem, Me.TermsToolStripMenuItem, Me.ContactToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.HomeToolStripMenuItem, Me.RentACarToolStripMenuItem, Me.RentABikeToolStripMenuItem, Me.TermsToolStripMenuItem, Me.ContactToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(833, 28)
@@ -101,16 +103,10 @@ Partial Class dashboard
         Me.RentABikeToolStripMenuItem.Size = New System.Drawing.Size(95, 24)
         Me.RentABikeToolStripMenuItem.Text = "Rent a bike"
         '
-        'SelfDriveToolStripMenuItem
-        '
-        Me.SelfDriveToolStripMenuItem.Name = "SelfDriveToolStripMenuItem"
-        Me.SelfDriveToolStripMenuItem.Size = New System.Drawing.Size(83, 24)
-        Me.SelfDriveToolStripMenuItem.Text = "Self drive"
-        '
         'TermsToolStripMenuItem
         '
         Me.TermsToolStripMenuItem.Name = "TermsToolStripMenuItem"
-        Me.TermsToolStripMenuItem.Size = New System.Drawing.Size(60, 24)
+        Me.TermsToolStripMenuItem.Size = New System.Drawing.Size(61, 24)
         Me.TermsToolStripMenuItem.Text = "Terms"
         '
         'ContactToolStripMenuItem
@@ -182,28 +178,13 @@ Partial Class dashboard
         Me.Button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button1.UseVisualStyleBackColor = False
         '
-        'Button2
-        '
-        Me.Button2.BackColor = System.Drawing.Color.Transparent
-        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!)
-        Me.Button2.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Button2.Location = New System.Drawing.Point(555, 255)
-        Me.Button2.Name = "Button2"
-        Me.Button2.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.Button2.Size = New System.Drawing.Size(232, 36)
-        Me.Button2.TabIndex = 7
-        Me.Button2.Text = "Self Driven Cars"
-        Me.Button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button2.UseVisualStyleBackColor = False
-        '
         'Button3
         '
         Me.Button3.BackColor = System.Drawing.Color.Transparent
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.System
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!)
         Me.Button3.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Button3.Location = New System.Drawing.Point(555, 299)
+        Me.Button3.Location = New System.Drawing.Point(555, 259)
         Me.Button3.Name = "Button3"
         Me.Button3.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.Button3.Size = New System.Drawing.Size(232, 36)
@@ -218,7 +199,7 @@ Partial Class dashboard
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.System
         Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!)
         Me.Button4.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Button4.Location = New System.Drawing.Point(555, 343)
+        Me.Button4.Location = New System.Drawing.Point(555, 305)
         Me.Button4.Name = "Button4"
         Me.Button4.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.Button4.Size = New System.Drawing.Size(232, 36)
@@ -233,7 +214,7 @@ Partial Class dashboard
         Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.System
         Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!)
         Me.Button5.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Button5.Location = New System.Drawing.Point(555, 211)
+        Me.Button5.Location = New System.Drawing.Point(555, 213)
         Me.Button5.Name = "Button5"
         Me.Button5.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.Button5.Size = New System.Drawing.Size(232, 36)
@@ -242,6 +223,7 @@ Partial Class dashboard
         Me.Button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button5.UseVisualStyleBackColor = False
         '
+<<<<<<< HEAD
         'WeddingCarsToolStripMenuItem
         '
         Me.WeddingCarsToolStripMenuItem.Name = "WeddingCarsToolStripMenuItem"
@@ -252,6 +234,22 @@ Partial Class dashboard
         '
         Me.ToolStripSeparator2.Name = "ToolStripSeparator2"
         Me.ToolStripSeparator2.Size = New System.Drawing.Size(184, 6)
+=======
+        'Button2
+        '
+        Me.Button2.BackColor = System.Drawing.Color.Transparent
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.System
+        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!)
+        Me.Button2.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Button2.Location = New System.Drawing.Point(555, 347)
+        Me.Button2.Name = "Button2"
+        Me.Button2.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.Button2.Size = New System.Drawing.Size(232, 36)
+        Me.Button2.TabIndex = 7
+        Me.Button2.Text = "SUV Cars"
+        Me.Button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Button2.UseVisualStyleBackColor = False
+>>>>>>> 71adab6 (done)
         '
         'dashboard
         '
@@ -260,9 +258,9 @@ Partial Class dashboard
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.ClientSize = New System.Drawing.Size(833, 479)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label4)
@@ -287,7 +285,6 @@ Partial Class dashboard
     Friend WithEvents SUVsCarsToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents LuxuryCarsToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents RentABikeToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents SelfDriveToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents TermsToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ContactToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents Label1 As System.Windows.Forms.Label
@@ -295,10 +292,10 @@ Partial Class dashboard
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents Button1 As System.Windows.Forms.Button
-    Friend WithEvents Button2 As System.Windows.Forms.Button
     Friend WithEvents Button3 As System.Windows.Forms.Button
     Friend WithEvents Button4 As System.Windows.Forms.Button
     Friend WithEvents Button5 As System.Windows.Forms.Button
     Friend WithEvents WeddingCarsToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ToolStripSeparator2 As System.Windows.Forms.ToolStripSeparator
+    Friend WithEvents Button2 As System.Windows.Forms.Button
 End Class

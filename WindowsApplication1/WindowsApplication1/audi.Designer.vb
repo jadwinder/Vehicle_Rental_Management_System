@@ -376,7 +376,11 @@ Partial Class audi
         Me.Label14.TabIndex = 11
         Me.Label14.Text = "Petrol"
         '
+<<<<<<< HEAD
         'amaze
+=======
+        'audi
+>>>>>>> 71adab6 (done)
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -399,7 +403,11 @@ Partial Class audi
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.MenuStrip1)
         Me.Controls.Add(Me.ShapeContainer1)
+<<<<<<< HEAD
         Me.Name = "amaze"
+=======
+        Me.Name = "audi"
+>>>>>>> 71adab6 (done)
         Me.Text = "Audi"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()

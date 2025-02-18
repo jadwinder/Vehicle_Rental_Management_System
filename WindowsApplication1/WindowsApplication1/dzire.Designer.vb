@@ -158,9 +158,15 @@ Partial Class dzire
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
+<<<<<<< HEAD
         Me.PictureBox1.Location = New System.Drawing.Point(29, 145)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(441, 294)
+=======
+        Me.PictureBox1.Location = New System.Drawing.Point(23, 149)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(374, 263)
+>>>>>>> 71adab6 (done)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 9
         Me.PictureBox1.TabStop = False
@@ -174,7 +180,11 @@ Partial Class dzire
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(150, 24)
         Me.Label2.TabIndex = 10
+<<<<<<< HEAD
         Me.Label2.Text = "Rs. 1000 per day"
+=======
+        Me.Label2.Text = "Rs. 1500 per day"
+>>>>>>> 71adab6 (done)
         '
         'Label3
         '
@@ -252,9 +262,15 @@ Partial Class dzire
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!)
         Me.Label10.Location = New System.Drawing.Point(682, 280)
         Me.Label10.Name = "Label10"
+<<<<<<< HEAD
         Me.Label10.Size = New System.Drawing.Size(28, 18)
         Me.Label10.TabIndex = 11
         Me.Label10.Text = "No"
+=======
+        Me.Label10.Size = New System.Drawing.Size(33, 18)
+        Me.Label10.TabIndex = 11
+        Me.Label10.Text = "Yes"
+>>>>>>> 71adab6 (done)
         '
         'ShapeContainer1
         '
@@ -340,7 +356,11 @@ Partial Class dzire
         '
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!)
+<<<<<<< HEAD
         Me.Label11.Location = New System.Drawing.Point(531, 321)
+=======
+        Me.Label11.Location = New System.Drawing.Point(531, 319)
+>>>>>>> 71adab6 (done)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(64, 18)
         Me.Label11.TabIndex = 11
@@ -350,7 +370,11 @@ Partial Class dzire
         '
         Me.Label12.AutoSize = True
         Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!)
+<<<<<<< HEAD
         Me.Label12.Location = New System.Drawing.Point(683, 321)
+=======
+        Me.Label12.Location = New System.Drawing.Point(683, 320)
+>>>>>>> 71adab6 (done)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(85, 18)
         Me.Label12.TabIndex = 11
@@ -372,9 +396,15 @@ Partial Class dzire
         Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!)
         Me.Label14.Location = New System.Drawing.Point(685, 354)
         Me.Label14.Name = "Label14"
+<<<<<<< HEAD
         Me.Label14.Size = New System.Drawing.Size(49, 18)
         Me.Label14.TabIndex = 11
         Me.Label14.Text = "Deisel"
+=======
+        Me.Label14.Size = New System.Drawing.Size(47, 18)
+        Me.Label14.TabIndex = 11
+        Me.Label14.Text = "Petrol"
+>>>>>>> 71adab6 (done)
         '
         'dzire
         '

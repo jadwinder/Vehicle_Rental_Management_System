@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
@@ -332,4 +333,357 @@
   <Target Name="AfterBuild">
   </Target>
   -->
+=======
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{05AB3847-F391-4946-BE63-FCDC411F5BAC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>WindowsApplication1.My.MyApplication</StartupObject>
+    <RootNamespace>WindowsApplication1</RootNamespace>
+    <AssemblyName>WindowsApplication1</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>WindowsApplication1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>WindowsApplication1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="audi.Designer.vb">
+      <DependentUpon>audi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="audi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bentley.Designer.vb">
+      <DependentUpon>bentley.vb</DependentUpon>
+    </Compile>
+    <Compile Include="bentley.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cars.Designer.vb">
+      <DependentUpon>cars.vb</DependentUpon>
+    </Compile>
+    <Compile Include="cars.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="amb.Designer.vb">
+      <DependentUpon>amb.vb</DependentUpon>
+    </Compile>
+    <Compile Include="amb.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bmw.Designer.vb">
+      <DependentUpon>bmw.vb</DependentUpon>
+    </Compile>
+    <Compile Include="bmw.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="amaze.Designer.vb">
+      <DependentUpon>amaze.vb</DependentUpon>
+    </Compile>
+    <Compile Include="amaze.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dzire.Designer.vb">
+      <DependentUpon>dzire.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dzire.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rollsVintage.Designer.vb">
+      <DependentUpon>rollsVintage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="rollsVintage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wRange.Designer.vb">
+      <DependentUpon>wRange.vb</DependentUpon>
+    </Compile>
+    <Compile Include="wRange.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wagon.Designer.vb">
+      <DependentUpon>wagon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="wagon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="limo.Designer.vb">
+      <DependentUpon>limo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="limo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="creta.Designer.vb">
+      <DependentUpon>creta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="creta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="jaguar.Designer.vb">
+      <DependentUpon>jaguar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="jaguar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lux.Designer.vb">
+      <DependentUpon>lux.vb</DependentUpon>
+    </Compile>
+    <Compile Include="lux.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mercedes.Designer.vb">
+      <DependentUpon>mercedes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="mercedes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="range.Designer.vb">
+      <DependentUpon>range.vb</DependentUpon>
+    </Compile>
+    <Compile Include="range.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rolls.Designer.vb">
+      <DependentUpon>rolls.vb</DependentUpon>
+    </Compile>
+    <Compile Include="rolls.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="verna.Designer.vb">
+      <DependentUpon>verna.vb</DependentUpon>
+    </Compile>
+    <Compile Include="verna.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="weddingcars.Designer.vb">
+      <DependentUpon>weddingcars.vb</DependentUpon>
+    </Compile>
+    <Compile Include="weddingcars.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="deltacar.Designer.vb">
+      <DependentUpon>deltacar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="deltacar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vitara.Designer.vb">
+      <DependentUpon>vitara.vb</DependentUpon>
+    </Compile>
+    <Compile Include="vitara.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dashboard.Designer.vb">
+      <DependentUpon>dashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="index.Designer.vb">
+      <DependentUpon>index.vb</DependentUpon>
+    </Compile>
+    <Compile Include="index.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.vb">
+      <DependentUpon>login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="manage.Designer.vb">
+      <DependentUpon>manage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="manage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="signup.Designer.vb">
+      <DependentUpon>signup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="signup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="audi.resx">
+      <DependentUpon>audi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bentley.resx">
+      <DependentUpon>bentley.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cars.resx">
+      <DependentUpon>cars.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="amb.resx">
+      <DependentUpon>amb.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bmw.resx">
+      <DependentUpon>bmw.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="amaze.resx">
+      <DependentUpon>amaze.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dzire.resx">
+      <DependentUpon>dzire.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rollsVintage.resx">
+      <DependentUpon>rollsVintage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wRange.resx">
+      <DependentUpon>wRange.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wagon.resx">
+      <DependentUpon>wagon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="limo.resx">
+      <DependentUpon>limo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="creta.resx">
+      <DependentUpon>creta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="jaguar.resx">
+      <DependentUpon>jaguar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lux.resx">
+      <DependentUpon>lux.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mercedes.resx">
+      <DependentUpon>mercedes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="range.resx">
+      <DependentUpon>range.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rolls.resx">
+      <DependentUpon>rolls.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="verna.resx">
+      <DependentUpon>verna.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="weddingcars.resx">
+      <DependentUpon>weddingcars.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="deltacar.resx">
+      <DependentUpon>deltacar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vitara.resx">
+      <DependentUpon>vitara.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dashboard.resx">
+      <DependentUpon>dashboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="index.resx">
+      <DependentUpon>index.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="manage.resx">
+      <DependentUpon>manage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="signup.resx">
+      <DependentUpon>signup.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+>>>>>>> 71adab6 (done)
 </Project>

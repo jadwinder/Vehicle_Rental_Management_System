@@ -11,4 +11,10 @@
         economical.Show()
         Me.Hide()
     End Sub
+
+   
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+        lux.Show()
+        Me.Hide()
+    End Sub
 End Class
